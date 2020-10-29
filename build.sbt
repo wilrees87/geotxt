@@ -17,7 +17,7 @@ resolvers += "CogcompSoftware" at "https://cogcomp.seas.upenn.edu/m2repo/"
 
 libraryDependencies ++= Seq(
  "edu.stanford.nlp" % "stanford-corenlp" % "3.9.1",
- "edu.illinois.cs.cogcomp" % "illinois-ner" % "4.0.13",
+ "edu.illinois.cs.cogcomp" % "illinois-ner" % "4.0.3",
  "org.apache.opennlp" % "opennlp-tools" % "1.8.4",
  "uk.ac.gate" % "gate-core" % "8.4.1",
  "org.postgresql" % "postgresql" % "42.2.1",
