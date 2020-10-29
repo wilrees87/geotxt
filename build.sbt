@@ -13,6 +13,8 @@ libraryDependencies ++= Seq(
   javaWs
 )
 
+resolvers += "CogcompSoftware" at "http://cogcomp.cs.illinois.edu/m2repo/"
+
 libraryDependencies ++= Seq(
  "edu.stanford.nlp" % "stanford-corenlp" % "3.9.1",
  "edu.illinois.cs.cogcomp" % "illinois-ner" % "4.0.4",
@@ -30,5 +32,3 @@ libraryDependencies ++= Seq(
  "com.bericotech" % "clavin" % "2.1.0",
  "edu.mit.ll" % "mitie" % "0.8" 
 )
-
-resolvers += "CogcompSoftware" at "http://cogcomp.cs.illinois.edu/m2repo/"
